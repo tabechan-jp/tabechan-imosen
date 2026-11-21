@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>imosen（いもせん）｜仙台・一番町の朝蕎麦の老舗</title>
+<meta name="description" content="仙台市青葉区一番町の老舗蕎麦屋「imosen（いもせん）」。1927年創業・4代目、そば粉9割の細麺と朝食セットが自慢。朝7:30頃〜14:00頃営業、日曜定休。Google口コミ約500件・★4.3。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Shippori+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Restaurant",
+"name": "imosen",
+"description": "仙台・一番町の朝蕎麦の老舗。1927年創業・4代目、そば粉9割の細麺。7:30頃〜14:00頃営業、日曜定休。",
+"telephone": "022-223-1538",
+"servesCuisine": "蕎麦",
+"address": {
+"@type": "PostalAddress",
+"postalCode": "980-0811",
+"addressRegion": "宮城県",
+"addressLocality": "仙台市青葉区",
+"streetAddress": "一番町4-5-11",
+"addressCountry": "JP"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.3",
+"reviewCount": "500"
+},
+"sameAs": ["https://www.instagram.com/imosen1927/"]
+}
+</script>
+<style>
+:root{
+--paper:#f5f0e3; --paper2:#ede4cf; --card:#fbf8ef; --card2:#f1e9d6;
+--ink:#2c2620; --ink2:#4a4238; --muted:#7d7263; --muted2:#a1937f;
+--ai:#33455e; --ai-l:#5a718f; --ai-d:#243447;
+--cha:#8a6a35; --cha-l:#b08d4f;
+--line:rgba(51,69,94,.30); --line-soft:rgba(44,38,32,.13);
+--serif:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+--latin:"Cormorant Garamond",serif;
+--sans:"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.9;font-size:15.5px;-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-bottom:64px;}
+img{display:block;max-width:100%;}
+a{color:var(--ai);}
+::selection{background:var(--ai);color:#fff;}
+
+/* ---------- sample band / watermark ---------- */
+.sample-band{position:fixed;top:0;left:0;right:0;z-index:90;background:rgba(30,26,20,.94);color:#d8c49a;text-align:center;font-size:10.5px;letter-spacing:.18em;padding:6px 10px;border-bottom:1px solid rgba(176,141,79,.25);}
+.watermark{position:fixed;inset:0;z-index:60;pointer-events:none;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.watermark span{font-family:var(--latin);font-size:26vw;font-weight:600;letter-spacing:.08em;color:rgba(51,69,94,.05);transform:rotate(-18deg);white-space:nowrap;}
+
+/* ---------- header ---------- */
+.site-head{position:fixed;top:27px;left:0;right:0;z-index:70;transition:background.4s,box-shadow.4s;}
+.site-head.scrolled{background:rgba(245,240,227,.92);backdrop-filter:blur(10px);box-shadow:0 10px 30px rgba(44,38,32,.18);}
+.site-head.in{max-width:1120px;margin:0 auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:14px;}
+.logo{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.1em;color:#fff;text-decoration:none;line-height:1.2;text-shadow:0 2px 12px rgba(0,0,0,.5);transition:color.4s;}
+.logo small{display:block;font-family:var(--sans);font-weight:400;font-size:9.5px;letter-spacing:.42em;color:var(--cha-l);margin-top:3px;}
+.site-head.scrolled.logo{color:var(--ink);text-shadow:none;}
+.head-nav{display:flex;align-items:center;gap:26px;}
+.head-nav a.nl{color:#f5f0e3;text-decoration:none;font-size:12.5px;letter-spacing:.18em;position:relative;padding:4px 0;text-shadow:0 2px 10px rgba(0,0,0,.5);transition:color.4s;}
+.site-head.scrolled.head-nav a.nl{color:var(--ink2);text-shadow:none;}
+.head-nav a.nl::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--cha);transition:width.35s;}
+.head-nav a.nl:hover::after{width:100%;}
+.head-tel{font-family:var(--latin);font-size:17px;letter-spacing:.08em;color:#fff;text-decoration:none;border:1px solid rgba(245,240,227,.55);padding:7px 16px;border-radius:999px;transition:.3s;background:rgba(30,26,20,.25);}
+.site-head.scrolled.head-tel{color:var(--ai);border-color:var(--line);background:transparent;}
+.head-tel:hover{background:var(--ai);color:#fff;border-color:var(--ai);}
+@media(max-width:760px){.head-nav a.nl{display:none;}.head-tel{font-size:15px;padding:6px 13px;}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;color:#f8f4ea;}
+.hero-bg{position:absolute;inset:0;}
+.hero-bg img{width:100%;height:100%;object-fit:cover;animation:kenburns 26s ease-in-out infinite alternate;}
+@keyframes kenburns{from{transform:scale(1) translateY(0);}to{transform:scale(1.12) translateY(-1.5%);}}
+.hero-bg::after{content:"";position:absolute;inset:0;background:
+radial-gradient(90% 60% at 50% 38%, rgba(24,22,18,.18) 0%, rgba(24,22,18,.55) 62%, rgba(24,22,18,.92) 100%),
+linear-gradient(180deg, rgba(24,22,18,.6) 0%, rgba(24,22,18,.15) 30%, rgba(24,22,18,.3) 62%, rgba(24,22,18,.88) 100%);}
+.hero-in{position:relative;z-index:2;padding:150px 22px 110px;max-width:840px;}
+.hero.fr{font-family:var(--latin);letter-spacing:.5em;text-indent:.5em;font-size:12.5px;color:#d9c08a;font-weight:500;}
+.hero h1{font-family:var(--serif);font-size:clamp(38px,9vw,66px);font-weight:700;letter-spacing:.14em;line-height:1.3;margin-top:14px;text-shadow:0 6px 40px rgba(0,0,0,.6);}
+.hero h1.en{display:block;font-family:var(--latin);font-size:clamp(14px,3vw,19px);letter-spacing:.55em;text-indent:.55em;color:#d9c08a;font-weight:500;margin-top:14px;}
+.hero.catch{font-family:var(--serif);font-size:clamp(17px,4.4vw,23px);letter-spacing:.1em;line-height:2.05;margin-top:26px;text-shadow:0 3px 18px rgba(0,0,0,.65);}
+.hero.catch small{display:block;font-family:var(--sans);font-size:13.5px;letter-spacing:.05em;color:#e8e0cd;margin-top:10px;line-height:1.9;}
+.orn{display:flex;align-items:center;gap:14px;justify-content:center;margin:30px auto 0;max-width:360px;}
+.orn::before,.orn::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,transparent,var(--cha-l));}
+.orn::after{background:linear-gradient(90deg,var(--cha-l),transparent);}
+.orn i{color:var(--cha-l);font-style:normal;font-size:12px;}
+.status{display:inline-flex;align-items:center;gap:9px;margin-top:28px;border:1px solid rgba(245,240,227,.35);background:rgba(24,22,18,.55);backdrop-filter:blur(6px);border-radius:999px;padding:9px 20px;font-size:13px;letter-spacing:.08em;}
+.status.dot{width:8px;height:8px;border-radius:50%;background:#8fd18b;box-shadow:0 0 12px #8fd18b;animation:pulse 2.2s infinite;}
+.status.closed.dot{background:#d18b8b;box-shadow:0 0 12px #d18b8b;animation:none;}
+@keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.35);}}
+.badges{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-top:16px;}
+.badge{background:rgba(24,22,18,.55);backdrop-filter:blur(6px);border:1px solid rgba(245,240,227,.22);color:#f8f4ea;border-radius:999px;padding:8px 16px;font-size:12.5px;letter-spacing:.05em;}
+.badge b{color:#d9c08a;font-family:var(--latin);font-size:15px;letter-spacing:.04em;}
+.badge.star{color:var(--cha-l);}
+.hero-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:34px;}
+.btn{display:inline-block;text-decoration:none;border-radius:999px;padding:14px 30px;font-size:14.5px;letter-spacing:.12em;font-weight:700;transition:.3s;}
+.btn-main{background:linear-gradient(180deg,var(--ai-l),var(--ai));color:#fff;box-shadow:0 10px 26px rgba(51,69,94,.35);}
+.btn-main:hover{transform:translateY(-2px);box-shadow:0 16px 34px rgba(51,69,94,.5);}
+.btn-ghost{border:1px solid rgba(248,244,234,.5);color:#f8f4ea;background:rgba(24,22,18,.3);}
+.btn-ghost:hover{border-color:var(--cha-l);color:#d9c08a;}
+.scroll-hint{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);z-index:2;color:rgba(248,244,234,.75);font-family:var(--latin);font-size:10.5px;letter-spacing:.5em;text-indent:.5em;text-align:center;}
+.scroll-hint::after{content:"";display:block;width:1px;height:44px;margin:10px auto 0;background:linear-gradient(180deg,var(--cha-l),transparent);animation:drip 2.4s ease-in-out infinite;}
+@keyframes drip{0%{transform:scaleY(.3);transform-origin:top;opacity:.4;}55%{transform:scaleY(1);opacity:1;}100%{transform:scaleY(1);opacity:.35;}}
+
+/* ---------- marquee ---------- */
+.marquee{border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);background:var(--paper2);overflow:hidden;padding:13px 0;}
+.marquee.track{display:flex;width:max-content;animation:mq 36s linear infinite;}
+.marquee span{font-family:var(--latin);letter-spacing:.42em;font-size:12px;color:var(--muted);white-space:nowrap;padding-right:.42em;}
+.marquee span b{color:var(--cha);font-weight:500;}
+@keyframes mq{to{transform:translateX(-50%);}}
+
+/* ---------- layout / sections ---------- */
+main{position:relative;z-index:2;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+section{padding:92px 0 8px;}
+.sec-head{text-align:center;margin-bottom:44px;}
+.sec-head.fr2{font-family:var(--latin);letter-spacing:.48em;text-indent:.48em;font-size:11px;color:var(--cha);font-weight:500;}
+.sec-head h2{font-family:var(--serif);font-size:clamp(24px,5.4vw,32px);letter-spacing:.18em;font-weight:600;margin-top:8px;}
+.sec-head p{color:var(--muted);font-size:13.5px;margin-top:12px;letter-spacing:.04em;}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:6px;}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr);}}
+.stat{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line-soft);border-radius:16px;padding:24px 14px;text-align:center;}
+.stat.num{font-family:var(--latin);font-size:clamp(30px,6vw,42px);font-weight:600;color:var(--ai);line-height:1.1;}
+.stat.num.star{color:var(--cha);font-size:.62em;vertical-align:.28em;}
+.stat.num.approx{font-size:.5em;color:var(--muted);}
+.stat.lbl{font-size:12px;color:var(--muted);letter-spacing:.14em;margin-top:8px;}
+.stat.src{font-size:10.5px;color:var(--muted2);margin-top:2px;}
+
+/* about / reasons */
+.reasons{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+@media(max-width:860px){.reasons{grid-template-columns:1fr;}}
+.reason{background:var(--card);border:1px solid var(--line-soft);border-radius:18px;padding:30px 24px;position:relative;overflow:hidden;}
+.reason::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--ai),var(--cha-l));}
+.reason.no{font-family:var(--latin);font-size:30px;color:var(--ai-l);font-weight:600;line-height:1;}
+.reason h3{font-family:var(--serif);font-size:18px;letter-spacing:.08em;margin:14px 0 10px;line-height:1.7;}
+.reason p{font-size:13.5px;color:var(--ink2);line-height:1.95;}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;margin-top:56px;}
+@media(max-width:860px){.about-grid{grid-template-columns:1fr;}}
+.about-txt h3{font-family:var(--serif);font-size:clamp(20px,4.6vw,26px);letter-spacing:.1em;line-height:1.8;margin-bottom:16px;}
+.about-txt p{color:var(--ink2);font-size:14.5px;line-height:2.05;margin-bottom:14px;}
+figure.photo{border-radius:18px;overflow:hidden;border:1px solid var(--line-soft);}
+figure.photo img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;}
+figure.photo figcaption{font-size:11px;color:var(--muted);padding:9px 14px;background:var(--paper2);letter-spacing:.03em;}
+
+/* menu */
+.menu-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+@media(max-width:860px){.menu-cards{grid-template-columns:1fr;}}
+.mcard{background:var(--card);border:1px solid var(--line-soft);border-radius:18px;overflow:hidden;}
+.mcard img{width:100%;aspect-ratio:4/3;object-fit:cover;}
+.mcard.bd{padding:20px 20px 24px;}
+.mcard.tag{display:inline-block;font-size:10.5px;letter-spacing:.2em;color:#fff;background:var(--ai);border-radius:999px;padding:3px 11px;margin-bottom:10px;}
+.mcard.tag.cha{background:var(--cha);}
+.mcard h3{font-family:var(--serif);font-size:17.5px;letter-spacing:.06em;line-height:1.7;}
+.mcard p{font-size:13px;color:var(--muted);line-height:1.95;margin-top:8px;}
+.menu-note-box{margin-top:34px;background:var(--card2);border:1px solid var(--line-soft);border-radius:18px;padding:26px;text-align:center;}
+.menu-note-box h3{font-family:var(--serif);font-size:16px;letter-spacing:.14em;margin-bottom:10px;}
+.menu-note-box p{font-size:12.5px;color:var(--muted);line-height:1.95;}
+
+/* news */
+.news{background:var(--card);border:1px solid var(--line-soft);border-radius:18px;padding:8px 26px;}
+.news li{list-style:none;display:flex;gap:18px;padding:16px 2px;border-bottom:1px solid var(--line-soft);font-size:14px;align-items:baseline;}
+.news li:last-child{border-bottom:none;}
+.news time{font-family:var(--latin);color:var(--ai);letter-spacing:.08em;white-space:nowrap;font-size:14.5px;}
+@media(max-width:640px){.news li{flex-direction:column;gap:2px;}}
+
+/* instagram */
+.ig-banner{background:linear-gradient(120deg,var(--ai-d),var(--ai) 55%,#6d5a33);border-radius:20px;padding:36px 30px;text-align:center;position:relative;overflow:hidden;color:#fff;}
+.ig-banner h3{font-family:var(--serif);font-size:clamp(19px,4.6vw,25px);letter-spacing:.1em;line-height:1.8;}
+.ig-banner p{font-size:13.5px;color:rgba(255,255,255,.85);margin-top:10px;line-height:2;}
+.ig-banner.btn{margin-top:20px;background:#fff;color:var(--ai-d);box-shadow:0 10px 26px rgba(0,0,0,.3);}
+.ig-banner.btn:hover{transform:translateY(-2px);}
+
+/* info */
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start;}
+@media(max-width:860px){.info-grid{grid-template-columns:1fr;}}
+table.info{width:100%;border-collapse:collapse;font-size:14px;}
+table.info th,table.info td{padding:13px 6px;border-bottom:1px solid var(--line-soft);text-align:left;vertical-align:top;line-height:1.8;}
+table.info th{width:32%;color:var(--muted);font-weight:400;letter-spacing:.1em;white-space:nowrap;}
+table.info td a{color:var(--ai);}
+.map{border-radius:18px;overflow:hidden;border:1px solid var(--line-soft);min-height:320px;}
+.map iframe{width:100%;height:100%;min-height:320px;border:0;display:block;}
+
+/* footer */
+footer{margin-top:96px;border-top:1px solid var(--line-soft);background:var(--paper2);padding:52px 22px 40px;text-align:center;}
+footer.flogo{font-family:var(--serif);font-size:22px;letter-spacing:.12em;font-weight:700;}
+footer.finfo{font-size:12.5px;color:var(--muted);margin-top:14px;line-height:2.1;letter-spacing:.04em;}
+footer.fsrc{font-size:11px;color:var(--muted2);margin-top:20px;line-height:1.9;}
+footer.sample-note{margin-top:14px;font-size:11.5px;color:#8a6a35;letter-spacing:.1em;}
+
+/* fixed action bar */
+.actionbar{position:fixed;left:0;right:0;bottom:0;z-index:80;display:grid;grid-template-columns:1fr 1fr 1fr;background:rgba(30,26,20,.95);backdrop-filter:blur(10px);border-top:1px solid rgba(176,141,79,.3);}
+.actionbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:9px 4px 10px;text-decoration:none;color:#f5f0e3;font-size:12.5px;letter-spacing:.1em;font-weight:700;}
+.actionbar a small{font-size:9.5px;color:var(--muted2);font-weight:400;letter-spacing:.14em;}
+.actionbar a.tel{background:linear-gradient(180deg,var(--ai-l),var(--ai));color:#fff;}
+.actionbar a.tel small{color:rgba(255,255,255,.8);}
+.actionbar a + a{border-left:1px solid rgba(245,240,227,.12);}
+
+/* reveal animation */
+.rv{opacity:0;transform:translateY(26px);transition:opacity.9s ease,transform.9s ease;}
+.rv.d1{transition-delay:.12s;}.rv.d2{transition-delay:.24s;}
+.rv.on{opacity:1;transform:none;}
+</style>
+</head>
+<body>
+
+<div class="sample-band">これはサンプルです。無断使用は禁止しています</div>
+<div class="watermark" aria-hidden="true"><span>SAMPLE</span></div>
+
+<header class="site-head" id="siteHead">
+<div class="in">
+<a class="logo" href="#">imosen<small>仙台・一番町の朝蕎麦</small></a>
+<nav class="head-nav">
+<a class="nl" href="#about">お店について</a>
+<a class="nl" href="#menu">お品書き</a>
+<a class="nl" href="#news">お知らせ</a>
+<a class="nl" href="#info">店舗情報</a>
+<a class="head-tel" href="tel:0222231538">022-223-1538</a>
+</nav>
+</div>
+</header>
+
+<!-- hero -->
+<div class="hero">
+<div class="hero-bg"><img src="img/hero.webp" alt="imosenの細打ち蕎麦のイメージ"></div>
+<div class="hero-in">
+<p class="fr">SENDAI ・ SOBA ・ SINCE 1927</p>
+<h1>imosen<span class="en">IMOSEN ・ ICHIBANCHO SENDAI</span></h1>
+<p class="catch">朝7時半、一番町に湯気が立つ。<br>四代目が守る、朝蕎麦の老舗。
+<small>1927年創業。勾当台公園駅から徒歩3分、そば粉9割の細麺が自慢の小さな蕎麦屋。<br>一日の始まりに、温かい一杯をどうぞ。</small>
+</p>
+<div class="orn"><i>◆</i></div>
+<div>
+<span class="status" id="liveStatus"><span class="dot"></span><span id="liveStatusText">営業時間を確認中…</span></span>
+</div>
+<div class="badges">
+<span class="badge">Google口コミ <b>約500</b>件 <span class="star">★</span><b>4.3</b></span>
+<span class="badge">創業 <b>1927</b> 年</span>
+<span class="badge">勾当台公園駅 徒歩3分</span>
+</div>
+<div class="hero-cta">
+<a class="btn btn-main" href="tel:0222231538">電話する</a>
+<a class="btn btn-ghost" href="#menu">お品書きを見る</a>
+</div>
+</div>
+<div class="scroll-hint">SCROLL</div>
+</div>
+
+<div class="marquee" aria-hidden="true">
+<div class="track" id="mqTrack">
+<span>MORNING SOBA <b>◆</b> SINCE 1927 <b>◆</b> FINE SOBA NOODLES <b>◆</b> ICHIBANCHO SENDAI <b>◆</b> 4TH GENERATION <b>◆</b> </span>
+</div>
+</div>
+
+<main>
+<!-- stats -->
+<section style="padding-top:56px;">
+<div class="wrap">
+<div class="stats">
+<div class="stat rv"><div class="num"><span class="star">★</span>4.3</div><div class="lbl">Google評価</div><div class="src">Google口コミより</div></div>
+<div class="stat rv d1"><div class="num"><span class="approx">約</span>500</div><div class="lbl">口コミ件数</div><div class="src">Google口コミより</div></div>
+<div class="stat rv d2"><div class="num">1927</div><div class="lbl">創業</div><div class="src">4代目の老舗</div></div>
+<div class="stat rv d2"><div class="num">12</div><div class="lbl">席数</div><div class="src">こぢんまりした座敷</div></div>
+</div>
+</div>
+</section>
+
+<!-- about / reasons -->
+<section id="about">
+<div class="wrap">
+<div class="sec-head rv">
+<p class="fr2">ABOUT</p>
+<h2>選ばれる理由</h2>
+<p>大正の終わりから続く、仙台の朝の味。</p>
+</div>
+<div class="reasons">
+<div class="reason rv">
+<div class="no">01</div>
+<h3>1927年創業、<br>4代目が守る老舗の味</h3>
+<p>創業は1927年。仙台・一番町で長く愛されてきた蕎麦屋です。いまは4代目が店に立ち、受け継がれてきた味と朝の賑わいを守り続けています。</p>
+</div>
+<div class="reason rv d1">
+<div class="no">02</div>
+<h3>そば粉9割の<br>細麺</h3>
+<p>麺はそば粉9割の細打ち。つるりとしたのど越しと、噛むほどに広がる蕎麦の香りが持ち味です。朝の一杯にも、昼の締めにもすっと寄り添う味わいです。</p>
+</div>
+<div class="reason rv d2">
+<div class="no">03</div>
+<h3>朝の楽しみ、<br>朝食セット</h3>
+<p>朝は「朝食セット」が自慢。温・冷が選べる蕎麦に、日替わりご飯、とろろ、お新香が付きます（朝メニューは11:00まで）。11時からは、創作「ねばとろばくだん蕎麦」も人気です。</p>
+</div>
+</div>
+<div class="about-grid">
+<div class="about-txt rv">
+<h3>一番町の片隅で、<br>朝の湯気を上げ続ける店。</h3>
+<p>imosen（いもせん）は、仙台市青葉区一番町にある老舗蕎麦屋。勾当台公園駅から徒歩3分、12席のこぢんまりした座敷で、朝7時半頃から14時頃まで営業しています。</p>
+<p>出勤前の朝蕎麦に、昼の休憩に。最新情報は公式Instagramで発信しています。</p>
+</div>
+<figure class="photo rv d1">
+<img src="img/interior.webp" alt="imosenの店内のイメージ" loading="lazy">
+<figcaption>※写真はイメージです（本番制作時に店舗提供写真へ差し替えます）</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+<!-- menu -->
+<section id="menu">
+<div class="wrap">
+<div class="sec-head rv">
+<p class="fr2">MENU</p>
+<h2>お品書き</h2>
+<p>朝のセットから、創作の一杯まで。</p>
+</div>
+<div class="menu-cards">
+<article class="mcard rv">
+<img src="img/morning.webp" alt="朝食セットのイメージ" loading="lazy">
+<div class="bd">
+<span class="tag">朝の看板</span>
+<h3>朝食セット</h3>
+<p>温・冷が選べる蕎麦に、日替わりご飯、とろろ、お新香が付いた朝のセット。朝メニューは11:00まで、一日の始まりにちょうどいい一膳です。</p>
+</div>
+</article>
+<article class="mcard rv d1">
+<img src="img/bakudan.webp" alt="ねばとろばくだん蕎麦のイメージ" loading="lazy">
+<div class="bd">
+<span class="tag cha">11時から・人気</span>
+<h3>ねばとろばくだん蕎麦</h3>
+<p>11時から登場する創作蕎麦。ねばとろの具材をたっぷりのせた、食べごたえのある人気の一杯です。</p>
+</div>
+</article>
+<article class="mcard rv d2">
+<img src="img/hero.webp" alt="そば粉9割の細麺のイメージ" loading="lazy">
+<div class="bd">
+<span class="tag">こだわり</span>
+<h3>そば粉9割の細麺</h3>
+<p>そば粉9割の細打ち麺は、香りとのど越しが自慢。温かくても冷たくても、蕎麦そのものの味わいを楽しめます。</p>
+</div>
+</article>
+</div>
+<div class="menu-note-box rv">
+<h3>お品書きについて</h3>
+<p>お品書きの内容は店頭でご確認ください。<br>朝メニュー（朝食セット）は11:00までです。最新の情報は公式Instagramでも発信しています。</p>
+</div>
+</div>
+</section>
+
+<!-- news -->
+<section id="news">
+<div class="wrap">
+<div class="sec-head rv">
+<p class="fr2">NEWS</p>
+<h2>お知らせ</h2>
+</div>
+<ul class="news rv">
+<li><time>営業案内</time><span>営業時間は7:30頃〜14:00頃、日曜は定休日です。朝メニューは11:00までとなります。</span></li>
+<li><time>―</time><span>最新情報は公式Instagram（@imosen1927）で発信しています。</span></li>
+</ul>
+</div>
+</section>
+
+<!-- instagram -->
+<section id="instagram">
+<div class="wrap">
+<div class="ig-banner rv">
+<h3>最新情報は<br>Instagramで</h3>
+<p>日々のご案内やお知らせは、<br>公式Instagramで発信しています。</p>
+<a class="btn" href="https://www.instagram.com/imosen1927/" target="_blank" rel="noopener">Instagramを見る</a>
+</div>
+</div>
+</section>
+
+<!-- info -->
+<section id="info">
+<div class="wrap">
+<div class="sec-head rv">
+<p class="fr2">INFORMATION</p>
+<h2>店舗情報</h2>
+</div>
+<div class="info-grid">
+<div class="rv">
+<table class="info">
+<tr><th>店名</th><td>imosen（いもせん）</td></tr>
+<tr><th>住所</th><td>〒980-0811<br>宮城県仙台市青葉区一番町4-5-11</td></tr>
+<tr><th>アクセス</th><td>勾当台公園駅から徒歩3分</td></tr>
+<tr><th>電話</th><td><a href="tel:0222231538">022-223-1538</a></td></tr>
+<tr><th>営業時間</th><td>7:30頃〜14:00頃（朝メニューは11:00まで）</td></tr>
+<tr><th>定休日</th><td>日曜</td></tr>
+<tr><th>席数</th><td>12席</td></tr>
+<tr><th>Instagram</th><td><a href="https://www.instagram.com/imosen1927/" target="_blank" rel="noopener">@imosen1927</a></td></tr>
+</table>
+<div class="hero-cta" style="justify-content:flex-start;margin-top:26px;">
+<a class="btn btn-main" href="https://www.google.com/maps/search/?api=1&amp;query=imosen+%E4%BB%99%E5%8F%B0+%E4%B8%80%E7%95%AA%E7%94%BA" target="_blank" rel="noopener">Googleマップで経路を見る</a>
+</div>
+</div>
+<div class="map rv d1">
+<iframe title="imosen 地図" src="https://www.google.com/maps?q=%E5%AE%AE%E5%9F%8E%E7%9C%8C%E4%BB%99%E5%8F%B0%E5%B8%82%E9%9D%92%E8%91%89%E5%8C%BA%E4%B8%80%E7%95%AA%E7%94%BA4-5-11&amp;output=embed" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="flogo">imosen</div>
+<p class="finfo">
+〒980-0811 宮城県仙台市青葉区一番町4-5-11<br>
+TEL <a href="tel:0222231538">022-223-1538</a>／営業時間 7:30頃〜14:00頃・定休日 日曜<br>
+Instagram <a href="https://www.instagram.com/imosen1927/" target="_blank" rel="noopener">@imosen1927</a>
+</p>
+<p class="fsrc">写真はすべてAI生成のイメージです（本番制作時に店舗提供写真へ差し替えます）。<br>店舗情報・評価はGoogle口コミ等の公開情報（2026年11月時点）をもとに作成しています。</p>
+<p class="sample-note">これはサンプルです。無断使用は禁止しています</p>
+</footer>
+
+<!-- fixed action bar -->
+<nav class="actionbar">
+<a class="tel" href="tel:0222231538">電話する<small>CALL</small></a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=imosen+%E4%BB%99%E5%8F%B0+%E4%B8%80%E7%95%AA%E7%94%BA" target="_blank" rel="noopener">経路案内<small>MAP</small></a>
+<a href="https://www.instagram.com/imosen1927/" target="_blank" rel="noopener">Instagram<small>@imosen1927</small></a>
+</nav>
+
+<script>
+// header scroll state
+var head = document.getElementById('siteHead');
+window.addEventListener('scroll', function(){
+head.classList.toggle('scrolled', window.scrollY > 40);
+}, {passive:true});
+
+// marquee duplicate for seamless loop
+var mq = document.getElementById('mqTrack');
+mq.innerHTML += mq.innerHTML;
+
+// reveal on scroll
+var io = new IntersectionObserver(function(entries){
+entries.forEach(function(e){
+if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);}
+});
+}, {threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){ io.observe(el);});
+
+// live opening status (JST)
+// 営業時間：7:30頃〜14:00頃。日曜定休。
+function updateStatus(){
+var now = new Date(new Date().toLocaleString('en-US', {timeZone:'Asia/Tokyo'}));
+var day = now.getDay(); // 0=日曜
+var mins = now.getHours() * 60 + now.getMinutes();
+var open = 7 * 60 + 30; // 7:30
+var close = 14 * 60; // 14:00
+var el = document.getElementById('liveStatus');
+var tx = document.getElementById('liveStatusText');
+if(day === 0){
+el.classList.add('closed');
+tx.textContent = '本日は定休日（日曜）です';
+} else if(mins >= open && mins < close){
+el.classList.remove('closed');
+tx.textContent = '営業中 ・ 本日 14:00頃まで';
+} else if(mins < open){
+el.classList.add('closed');
+tx.textContent = '本日 7:30頃 オープン';
+} else {
+el.classList.add('closed');
+tx.textContent = (day === 6)? '月曜 7:30頃 オープン（日曜定休）': '明日 7:30頃 オープン';
+}
+}
+updateStatus();
+setInterval(updateStatus, 60000);
+</script>
+</body>
+</html>
